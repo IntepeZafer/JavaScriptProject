@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+    margin: 0;
+}
+.container{
+    max-width: 31.25rem;
+    width: 100%;
+    background-color: #DF4340;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.currentCountainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem;
+}
+.exchangeRates{
+    text-align: center;
+}
+select[id="currentFirst"] , select[id="currentSecond"]{
+    padding: .625rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+}
+select[id="currentFirst"] , select[id="currentSecond"]:hover{
+    outline: none;
+}
+input[type="number"]{
+    width: 15%;
+    padding: .0625rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    text-align: right;
+}
+.exchangeRates{
+    font-size: 1.5em;
+}

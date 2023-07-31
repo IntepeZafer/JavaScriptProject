@@ -1,0 +1,11 @@
+@media only screen and (max-width: 800px) {
+    h1{
+        display: none;
+    }
+    .container{
+        display: block;
+    }
+    .bi-layout-sidebar-inset-reverse{
+        display: block;
+    }
+}

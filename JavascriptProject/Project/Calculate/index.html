@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h3>Hava Sıcaklığı Çevirici</h3>
+        </div>
+        <div class="fahrenaiteItem">
+            <div class="item">
+                <p class="fahrenaiteItem_title">Ceiuns:</p>
+                <input onchange="calculateTemp(event)" class="number" type="number" name="number" id="number" placeholder="Hava Kaç Derece?">
+            </div>
+            <div class="item">
+                <p class="fahrenaiteItem_title">Fahrenheit:</p>
+                <input onchange="calculateTemp(event)" class="fahrenait" type="number" name="fahrenait" id="fahrenait" placeholder="Hava Kaç Derece?">
+            </div>
+            <div class="item">
+                <p class="fahrenaiteItem_title">Kelvin:</p>
+                <input onchange="calculateTemp(event)" class="kelvin" type="number" name="kelvin" id="kelvin" placeholder="Hava Kaç Derece?">
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

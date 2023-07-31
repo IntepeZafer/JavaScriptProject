@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.title{
+    font-size: 1.5em;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    padding-bottom: 1rem;
+}
+h3{
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    margin-top: .9rem;
+}
+.fahrenaiteItem_title{
+    font-size: 1.5em;
+    width: 40%;
+    text-align: right;
+    padding-right: 1rem;
+}
+.container{
+    max-width: 28.125rem;
+    width: 100%;
+    background-color: #8FED93;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.fahrenaiteItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1rem;
+    margin-top: 1.2rem;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.fahrenaiteItem .item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    padding: .3rem 1rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+.item{
+    margin-right: 1.5rem;
+}
+.container:hover{
+    border: 5px solid #fff;
+    transition-duration: 1s;
+    box-shadow: 1px 1px 20px 1px black;
+}
+::placeholder{
+    color: black;
+    font-size: 1.1em;
+}
